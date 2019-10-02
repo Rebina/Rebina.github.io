@@ -247,10 +247,22 @@ bootstrap.min.css:5
 	margin-top: 25px;
 }
 
+.icon-set{
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.tech-text{
+  margin-bottom: -18px;
+  margin-left: 40px;
+  font-size: large;
+  font-family: cursive;
+}
 
 #about {
-	padding: 150px 0px;
-	background-image: url(../img/about-bg.jpg);
+	padding: 260px 0px;
+	background-image: url(../img/line_circle.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -298,7 +310,7 @@ bootstrap.min.css:5
 
 #portfolio {
   padding: 150px 0px;
-  background-image: url(../img/about-bg.jpg);
+  background-image: url(../img/portfolio_big_item_03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -308,8 +320,8 @@ bootstrap.min.css:5
   text-align: center;
 }
 
-#portfolio .service-item .icon {
-  width: 110px;
+#portfolio .service-item .icon
+{  width: 110px;
   height: 110px;
   display: inline-block;
   text-align: center;
@@ -324,7 +336,7 @@ bootstrap.min.css:5
   margin-top: 45px;
   font-size: 17px;
   font-weight: 500;
-  color: #fff;
+  /*color: #fff;*/
   letter-spacing: 1px;
 }
 
@@ -335,7 +347,7 @@ bootstrap.min.css:5
 }
 
 #portfolio .service-item p {
-  color: #fff;
+  /*color: #fff;*/
   margin-top: 30px;
 }
 
@@ -464,10 +476,20 @@ bootstrap.min.css:5
 }
 
 
+.modal-text{
+  color: #150656;
+  padding-right: 25px;
+  padding-left: 25px;
+  text-align: justify;
+  margin-bottom: 15px;
+}
 
+.modal-text .ul{
 
-#blog {
-	background-image: url(../img/blog-bg.jpg);
+}
+
+#tech {
+	background-image: url(../img/tech-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
