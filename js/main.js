@@ -87,7 +87,9 @@ jQuery(document).ready(function($) {
                $(".header").removeClass("active");
             }
         });
-
+        if($(window).scrollTop() > 100) {
+            $(".header").addClass("active");
+        }
 
 	/************** Mixitup (Filter Projects) *********************/
     	$('.projects-holder').mixitup({
